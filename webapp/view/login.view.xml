@@ -9,7 +9,7 @@
 							<Label design="Bold" text="Username"></Label>
 							<Input placeholder="Enter your username" width="40%" id="inpUsername" required="true"></Input>
 							<Label design="Bold" text="Password"></Label>
-							<Input placeholder="Enter your password" width="40%" type="Password" required = "true"></Input>
+							<Input placeholder="Enter your password" width="40%" type="Password" id="inpPassword" required = "true"></Input>
 						</form:content>
 					</form:SimpleForm>
 				</content>
