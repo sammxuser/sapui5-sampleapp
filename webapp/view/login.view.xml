@@ -1,0 +1,26 @@
+<mvc:View controllerName="sampleProject.zSampleProject.controller.login" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:html="http://www.w3.org/1999/xhtml" displayBlock="true" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core">
+	<App id="idAppControl">
+		<pages>
+			<Page title="Sample App: Registration">
+				<content>
+					<form:SimpleForm editable="true">
+						<form:content>
+							<Label design="Bold" text="Username"></Label>
+							<Input placeholder="Enter your username" width="40%" id="inpUsername" required="true"></Input>
+							<Label design="Bold" text="Password"></Label>
+							<Input placeholder="Enter your password" width="40%" type="Password" required = "true"></Input>
+						</form:content>
+					</form:SimpleForm>
+				</content>
+				<footer>
+					<Bar>
+						<contentRight>
+							<Button text="Login" press="handleLogin" type="Accept"></Button>
+						</contentRight>
+					</Bar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
